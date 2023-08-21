@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "palindromicFinder", "palindromicFinder.csproj", "{769622F3-4329-49D1-9355-9D2B927340A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "palindromicFinder", "Src\palindromicFinder.csproj", "{F5CFCC88-1895-4526-8A06-B41A02004166}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "palindromicFinderTests", "..\palindromicFinderTests\palindromicFinderTests.csproj", "{2F7FA531-AD9A-4F3F-85B8-797F1C441B09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "palindromicFinderTests", "Tests\palindromicFinderTests.csproj", "{FB603E1C-C76E-4137-8022-8C1A2A934EED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{769622F3-4329-49D1-9355-9D2B927340A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{769622F3-4329-49D1-9355-9D2B927340A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{769622F3-4329-49D1-9355-9D2B927340A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{769622F3-4329-49D1-9355-9D2B927340A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F7FA531-AD9A-4F3F-85B8-797F1C441B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F7FA531-AD9A-4F3F-85B8-797F1C441B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F7FA531-AD9A-4F3F-85B8-797F1C441B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F7FA531-AD9A-4F3F-85B8-797F1C441B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CFCC88-1895-4526-8A06-B41A02004166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CFCC88-1895-4526-8A06-B41A02004166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CFCC88-1895-4526-8A06-B41A02004166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CFCC88-1895-4526-8A06-B41A02004166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB603E1C-C76E-4137-8022-8C1A2A934EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB603E1C-C76E-4137-8022-8C1A2A934EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB603E1C-C76E-4137-8022-8C1A2A934EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB603E1C-C76E-4137-8022-8C1A2A934EED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
